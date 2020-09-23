@@ -1,6 +1,6 @@
 # RubySecRepo
 
-### 1. NetworkScan.rb 
+### 1. NetworkScan 
 
 Usage: 
 ```sh
@@ -17,7 +17,7 @@ Result:
 192.168.1.3 - 80  - open
 192.168.1.3 - 443 -
 ```
-### 2. URL Checker 
+### 2. URLChecker 
 Usage: 
 ```sh
 $ ruby main.rb 
