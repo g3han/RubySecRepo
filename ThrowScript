@@ -18,6 +18,6 @@ require 'net/http'
 #File Download
 filename = "test_ZEMHCEHC.zip"
 uri = URI('http://localhost:9292/')
-response = Net::HTTP.post_form(uri, 'd' => Base64.encode64(filename))
+response = Net::HTTP.post_form(uri, 'd' => Base64.encode64(filename),:read_timeout => 999999)
 b = Base64.decode64(response.body)
 IO.binwrite(filename, b)
