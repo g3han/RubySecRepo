@@ -26,6 +26,6 @@ $ ruby main.rb
 ### 3. Client.rb
 Usage:
 ```sh
-For download : >ruby client.rb d [http://CC_ADDRESS] [filename.ext]
-For upload   : >ruby client.rb u [http://CC_ADDRESS] [filename.ext]
+For download :> ruby client.rb d [http://CC_ADDRESS] [filename.ext]
+For upload   :> ruby client.rb u [http://CC_ADDRESS] [filename.ext]
 ```
