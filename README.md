@@ -29,3 +29,13 @@ Usage:
 For download :> ruby client.rb d [http://CC_ADDRESS] [filename.ext]
 For upload   :> ruby client.rb u [http://CC_ADDRESS] [filename.ext]
 ```
+### 4. BulkWhois
+Before to use, install parallel and whois gems then put the domain names in list.txt at the same folder with rb file.
+```sh
+gem install whois
+gem install parallel
+```
+Usage:
+```sh
+ruby bulkwhois.rb
+```
